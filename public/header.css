@@ -1,0 +1,348 @@
+header
+{
+    width: 100%;
+    height: 714px;
+    background-image: url("./images/finalformmalickdesigncoder.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 64%;
+    background-color: white;
+}
+.conteneur_header
+{
+    width: 100%;
+    height: 100%;
+
+
+}
+.conteneur_header_sous
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.front
+{
+    width: 28%;
+    height: 49%;
+
+}
+.img_designer
+{
+    width: 100%;
+    height: 42%;
+
+}
+.content_img_designer
+{
+    width: 100%;
+    height:58%;
+   padding: 35px;
+    font-size: 16.5px;
+}
+.back{
+    width: 28%;
+    height: 49%;
+
+}
+.img_coder
+{
+    width: 100%;
+    height: 42%;
+}
+.content_img_coder
+{
+    width: 100%;
+    height: 58%;
+    padding: 35px;
+    font-size: 16.5px;
+}
+header a
+{
+    color: black;
+    font-size: 17.5px;
+    margin-right: 10px;
+    text-align: center;
+}
+.header_block_title
+{
+    width: 100%;
+    height: 100%;
+}
+.container_img_title
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-left: 40px ;
+}
+.title
+{
+    padding-top: 40px;
+    width: 47%;
+    height: 100%;
+}
+.img
+{
+    width: 65%;
+    height: 100%;
+
+}
+.container_img_title ul
+{
+    display: flex;
+    padding-left: 54px;
+}
+.container_img_title li
+{
+    padding-left: 20px;
+    list-style: none;
+    font-size: 17px;
+}
+section{
+background-color: #fcfcfc;
+    padding-top: 60px;
+}
+.article1
+{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-left:180px ;
+    padding-right: 100px;
+}
+.block_conteneur_article1
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+
+}
+.title_me
+{
+    width: 40%;
+    height: 100%;
+    padding: 10px ;
+
+}
+span{
+    font-weight: bold;
+}
+.button_about
+{
+    margin-right: auto;
+    margin-left: auto ;
+    text-align: left;
+    margin-top:30px;
+}
+.content_me
+{
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 55%;
+    height: 100%;
+    padding:50px 15px 15px 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.article2
+{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-left:120px ;
+    padding-right: 120px;
+    margin-bottom: 80px;
+}
+.block_conteneur_article2
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.content_comp
+{
+    width: 40%;
+    height: auto;
+
+    text-align: right;
+    padding-right: 10px;
+}
+.img_comp
+{
+    width: 35%;
+}
+.content_comp2
+{
+    width: 40%;
+    height: auto;
+    padding-right: 10px;
+}
+.article3
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+    background-color: #ececec;
+}
+.block_conteneur_article3
+{
+    width: 100%;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.btn_projet
+{
+    width: 100%;text-align: center;
+}
+.article4
+{
+    width: 100%;
+    height:auto;
+    background-image: url("./images/contactbackground.jpg");
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+}
+.contact_me
+{
+    width: 79%;
+    height:auto;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    display: flex;
+
+}
+.form_contact{
+    width: 60%;
+    height: auto;
+    padding: 20px;
+}
+.coord_contact
+{
+    width: 40%;
+    height: auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+.button_contact
+{
+    margin-right: auto;
+    margin-left: auto ;
+    text-align: center;
+    margin-top:30px;
+
+}
+.button_social
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.footer_container
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 20px 10px 10px;
+}
+.video{
+    width: 100%;
+    height: 100%;
+}
+@media all and (max-width: 1024px)
+{
+    header
+    {
+        height: 60%;
+        min-height: auto;
+        background-image: url("./images/finalformmalickdesigncoder.jpg");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: 100%;
+    }
+    .front
+    {
+        display: none;
+    }
+    .back
+    {
+        display: none;
+    }
+    .conteneur_header_sous
+    {
+        width: auto;
+        height: 100%;
+    }
+    .img_coder
+    {
+        width: 100%;
+        height: auto;
+    }
+    .title_me
+    {
+      display: none;
+    }
+    .article1
+    {
+        padding: 30px;
+    }
+    .block_conteneur_article1
+    {
+        flex-direction: column;
+    }
+    .content_me
+    {
+        width: auto;
+    }
+    .article2
+    {
+        padding: 30px;
+        width: auto;
+    }
+    .block_conteneur_article2
+    {
+        flex-direction: column;
+    }
+    .img_comp
+    {
+        display: none;
+    }
+    .content_comp
+    {
+        width: auto;
+        text-align: center;
+    }
+    .content_comp2
+    {
+        margin-top: 30px;
+        width: auto;
+        text-align: center;
+    }
+    .bio_contact
+    {
+        display: none;
+    }
+    .coord_contact p
+    {
+        word-wrap: break-word;
+    }
+    .contact_me
+    {
+       width: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
